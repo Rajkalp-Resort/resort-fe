@@ -1,0 +1,377 @@
+.caroDiv {
+    display: block;
+}
+
+.caroDiv2 {
+    display: none;
+}
+
+.caroDiv3 {
+    display: none;
+}
+
+.homeCaro {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0%;
+    height: auto;
+}
+
+/* 
+.homeCaro2 {
+    display: none;
+} */
+
+.react-multiple-carousel__arrow {
+    opacity: 0 !important;
+}
+
+.caroText {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    color: #FFD6AB;
+    position: absolute;
+    top: 25rem;
+    left: 12%;
+    border-bottom: #FFD6AB 2px solid;
+}
+
+.caroBtn {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 39rem;
+    left: 12%;
+    border-radius: 10px;
+    border: 1px #fff solid;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.caroBtn2 {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 39rem;
+    left: 28%;
+    border-radius: 10px;
+    border: 1px #fff solid;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1430px) {
+
+    .caroText {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 18rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+
+    .caroBtn {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 30rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .caroBtn2 {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 30rem;
+        left: 33%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .caroText {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 15rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+
+    .caroBtn {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 27rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .caroBtn2 {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 27rem;
+        left: 38%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .caroDiv {
+        display: none;
+    }
+
+    .caroDiv2 {
+        display: block;
+    }
+
+    /* .homeCaro {
+        display: none;
+    }
+
+    .homeCaro2 {
+        display: block;
+        width: 100%;
+        margin: 0 0 0 0%;
+        height: auto;
+    } */
+
+
+
+    .caroText {
+        font-weight: 600;
+        font-size: 43px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 11rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+
+    .caroBtn {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 20rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .caroBtn2 {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 20rem;
+        left: 36%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+}
+
+
+
+@media screen and (max-width: 730px) {
+
+    .caroBtn {
+        top: 16rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroBtn2 {
+        top: 16rem;
+        left: 42%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroText {
+        font-weight: 600;
+        font-size: 43px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 8rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+
+    .caroDiv3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .caroBtn {
+        top: 14rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroBtn2 {
+        top: 14rem;
+        left: 37%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroText {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 8rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+}
+
+@media screen and (max-width: 464px) {
+
+    .caroDiv {
+        display: none;
+    }
+
+    .caroDiv2 {
+        display: none;
+    }
+
+    .caroDiv3 {
+        display: block;
+    }
+
+    .caroBtn {
+        top: 16rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroBtn2 {
+        top: 16rem;
+        left: 50%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+
+    .caroText {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 10rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+}

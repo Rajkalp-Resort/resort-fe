@@ -4,6 +4,7 @@ import { ScrollToTop } from 'react-router-scroll-to-top';
 import './App.css';
 import About from './pages/About';
 import Home from './pages/Home';
+import Package from './pages/Package';
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
         <Route path='/' exact element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
+        <Route path='/package' element={<Package />}></Route>
 
 
       </Routes>

@@ -1,0 +1,320 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1099;
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue); */
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(10px);
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    margin: 0px 0 0 0;
+    padding: 1rem 0 10px 0;
+    box-shadow: #B2B2B2 2px 0 4px
+}
+
+.items {
+    padding: 0 1.5rem 0 1.5rem;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: #B2B2B2;
+    border-left: #B2B2B2 solid 2px;
+    height: 2rem;
+    /* border-right: #B2B2B2 solid 2px; */
+
+}
+
+.navFont {
+    text-align: center;
+    /* padding: 0 15px 0 15px; */
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    padding: 5px 5px 1px 5px;
+    color: #000;
+    font-size: 18px;
+    border: none !important;
+    /* background-color: #7D7D7D; */
+    background: none;
+}
+
+.ilogo {
+    margin: 0 24rem 0 12rem;
+    height: 4.5rem;
+}
+
+.navIcons {
+    height: 2.3rem;
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+
+.loginIcon {
+    height: 5rem;
+    width: auto;
+    margin: -1.5rem 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1750px) {
+    .ilogo {
+        margin: 0 18rem 0 11rem;
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .ilogo {
+        margin: 0 14rem 0 7rem;
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .ilogo {
+        margin: 0 10rem 0 5rem;
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .ilogo {
+        margin: 0 7rem 0 3rem;
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .ilogo {
+        margin: 0 7rem 0 3rem;
+        height: 4.5rem;
+    }
+
+    .items {
+        padding: 0 1rem 0 1rem;
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        color: #B2B2B2;
+        border-left: #B2B2B2 solid 2px;
+        height: 1.8rem;
+        /* border-right: #B2B2B2 solid 2px; */
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 1220px) {
+    .ilogo {
+        margin: 0 4rem 0 2rem;
+        height: 4.5rem;
+    }
+
+    .items {
+        padding: 0 1rem 0 1rem;
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        color: #B2B2B2;
+        /* border-left: #B2B2B2 solid 2px; */
+        border-left: none;
+        height: 1.8rem;
+        /* border-right: #B2B2B2 solid 2px; */
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .ilogo {
+        margin: 0 1rem 0 1rem;
+        height: 4rem;
+    }
+
+    .items {
+        padding: 0 0.8rem 0 0.8rem;
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 35px;
+        color: #B2B2B2;
+        /* border-left: #B2B2B2 solid 2px; */
+        border-left: none;
+        height: 1.8rem;
+        /* border-right: #B2B2B2 solid 2px; */
+
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .list {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0px;
+        margin: 0px 0 0 0;
+        padding: 10px 0 3px 0;
+        box-shadow: grey 2px 0 4px;
+        z-index: 2;
+    }
+
+    .items:nth-child(1) {
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 0px;
+    }
+
+    .btn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+        padding: 5px 5px 1px 5px;
+        color: #000;
+        font-size: 18px;
+        border: none !important;
+        /* background-color: #7D7D7D; */
+        background: none;
+        z-index: 5;
+    }
+
+    .items {
+        padding: 10px 0.8rem 10px 0.8rem;
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 35px;
+        color: #B2B2B2;
+        /* border-left: #B2B2B2 solid 2px; */
+        border-left: none;
+        height: 1.8rem;
+        /* border-right: #B2B2B2 solid 2px; */
+
+    }
+
+    .navIcons {
+        height: 2rem;
+        width: auto;
+        margin: 0 10px 0 10px;
+    }
+
+    .loginIcon {
+        height: 4rem;
+        width: auto;
+        margin: -1rem 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .list {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0px;
+        margin: 0px 0 0 0;
+        padding: 10px 0 3px 0;
+        box-shadow: grey 2px 0 4px;
+        z-index: 2;
+    }
+
+    .items:nth-child(1) {
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 0px;
+    }
+
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 14px 0;
+        font-size: 16px;
+    }
+
+    .btn {
+        display: block;
+        z-index: 99;
+        margin: 0 4.5% 0 0;
+    }
+
+    .ilogo {
+        height: 2.5rem;
+        padding: 0px 0 0 0px;
+        margin: 0 2rem 0 -12rem;
+        z-index: 99;
+    }
+
+    .navIcons {
+        height: 2rem;
+        width: auto;
+        margin: 0 5px 0 5px;
+    }
+
+    .loginIcon {
+        height: 3rem;
+        width: auto;
+        margin: -0.5rem 0 0 0;
+    }
+}

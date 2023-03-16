@@ -1,0 +1,213 @@
+.bg2 {
+    margin: -4px 0 0 0;
+    width: 100%;
+}
+
+.amniCaro {
+    /* position: absolute; */
+    /* top: 10%; */
+    margin: -4px 0 5% 0;
+    padding: 0 10% 0 10%;
+    background: url(./bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amHead {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF 1px solid;
+    padding: 4% 0 0% 0;
+    margin: 0 0 4% 0;
+}
+
+.amBox {
+    border: #FFFFFF 1px solid;
+    margin: 0 1% 0 1%;
+    width: 95%;
+    height: 20rem;
+    background: white;
+    padding: 0px;
+}
+
+.homeCaro {
+    width: 100%;
+    height: auto;
+}
+
+.amLabel {
+    color: black;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 95%;
+        height: 15rem;
+        background: white;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 95%;
+        height: 14rem;
+        background: white;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 21rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+    .amHead {
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 55px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 18.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 16.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 14.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+    .amHead {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 13.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 11.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 464px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 19.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+    .amHead {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 8% 0 0% 0;
+        margin: 0 0 6% 0;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 17.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
