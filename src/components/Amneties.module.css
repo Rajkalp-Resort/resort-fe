@@ -44,6 +44,16 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 1540px) {
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 95%;
+        height: 17rem;
+        background: white;
+        padding: 0px;
+    }
+}
 
 @media screen and (max-width: 1400px) {
     .amBox {
@@ -150,6 +160,20 @@
         margin: 0 1% 0 1%;
         width: 98%;
         height: 13.5rem;
+        background: white;
+        padding: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+    .amBox {
+        border: #FFFFFF 1px solid;
+        margin: 0 1% 0 1%;
+        width: 98%;
+        height: 12.5rem;
         background: white;
         padding: 0px;
 

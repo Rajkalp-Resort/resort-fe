@@ -83,6 +83,51 @@
 }
 
 
+@media screen and (max-width: 1550px) {
+
+    .caroText {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: 0.02em;
+        color: #FFD6AB;
+        position: absolute;
+        top: 18rem;
+        left: 12%;
+        border-bottom: #FFD6AB 2px solid;
+    }
+
+    .caroBtn {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 30rem;
+        left: 12%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .caroBtn2 {
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 100%);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 30rem;
+        left: 30%;
+        border-radius: 10px;
+        border: 1px #fff solid;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+}
 
 
 @media screen and (max-width: 1430px) {
