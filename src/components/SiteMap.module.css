@@ -1,35 +1,169 @@
-.smapOutlier{
-    background-color: black;
+.smapOutlier {
+    background-color: #2a2b2b;
     color: white;
     /* margin-bottom: 20rem; */
-}
-.smap{
-    display:flex;
-    flex-direction: row;
+    padding: 0 10% 5% 10%;
 }
 
-.headSmap{
-    display:block;
-    font: 'Raleway', 'serif';
-    margin-left: 2rem;
-    margin-top: -4.8rem;
+.smap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.accessibility{
-    display:block;
-    margin-top: 20rem;
-    margin-left: 10rem;
-}
-.image{
-    height: 710px;
-    width: 684px;
-    margin-top: 40px;
-    margin-left: 80px;
+.headSmap {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF 1px solid;
+    padding: 4% 0 0% 0;
+    margin: 0 0 4% 0;
 }
 
-.faqs{
-    margin-top: 5rem;
-    margin-left: 45rem;
-    margin-bottom: 50rem;
-    padding-bottom: 5rem;
+.map1 {
+    width: 50%;
+}
+
+.accessibility {
+    margin-top: 6rem;
+    width: 40%;
+    padding: 0 0 0 10%;
+}
+
+.image {
+    height: auto;
+    width: 80%;
+}
+
+.access {
+    width: 85%;
+    height: auto;
+}
+
+.head1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #dfdcdc;
+    margin: 0 0 4% 0;
+}
+
+.aboutPara {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.faqs {}
+
+
+@media screen and (max-width: 1024px) {
+
+    .headSmap {
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 55px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
+
+    .accessibility {
+        margin-top: 3rem;
+        width: 44%;
+        padding: 0 0 0 6%;
+    }
+
+    .head1 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        /* color: #AEA5A5; */
+        margin: 0 0 2% 0;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .head1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* color: #AEA5A5; */
+        margin: 0 0 2% 0;
+    }
+
+    .headSmap {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
+
+    .accessibility {
+        margin-top: 1rem;
+        width: 47%;
+        padding: 0 0 0 3%;
+    }
+
+    .aboutPara {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+
+    }
+
+}
+
+
+@media screen and (max-width: 464px) {
+
+    .headSmap {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 8% 0 0% 0;
+        margin: 0 0 6% 0;
+    }
+
+    .map1 {
+        width: 100%;
+    }
+
+    .accessibility {
+        margin-top: 1rem;
+        width: 82%;
+        padding: 4% 0 0 13%;
+    }
+
+    .aboutPara {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: justify;
+    }
+
+    .head1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        /* color: #AEA5A5; */
+        margin: 0 0 2% 0;
+    }
+
+    .access {
+        width: 100%;
+        height: auto;
+    }
 }

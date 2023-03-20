@@ -173,8 +173,6 @@ function Amneties(props) {
 
                 </Carousel>
 
-                <br />
-                <br />
             </div>
 
 
