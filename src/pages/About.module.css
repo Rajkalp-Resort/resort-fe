@@ -1,0 +1,22 @@
+.about{
+    margin-left: 3rem;
+    /* background-color: black; */
+    color: white;
+}
+
+.aboutPara{
+    font-family: serif, sans-serif;
+
+}
+
+.aboutOutlier{
+    background-color: black;
+}
+
+@media screen and (max-width: 1540px){
+
+    .about{
+        
+    }
+}
+    

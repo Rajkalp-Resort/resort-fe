@@ -1,0 +1,35 @@
+.smapOutlier{
+    background-color: black;
+    color: white;
+    /* margin-bottom: 20rem; */
+}
+.smap{
+    display:flex;
+    flex-direction: row;
+}
+
+.headSmap{
+    display:block;
+    font: 'Raleway', 'serif';
+    margin-left: 2rem;
+    margin-top: -4.8rem;
+}
+
+.accessibility{
+    display:block;
+    margin-top: 20rem;
+    margin-left: 10rem;
+}
+.image{
+    height: 710px;
+    width: 684px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.faqs{
+    margin-top: 5rem;
+    margin-left: 45rem;
+    margin-bottom: 50rem;
+    padding-bottom: 5rem;
+}

@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from './Home.module.css';
 import Amneties from '../components/Amneties';
+import SiteMap from '../components/SiteMap';
 
 const responsive = {
     desktop: {
@@ -128,7 +129,7 @@ function Home(props) {
 
 
             <Amneties />
-
+            <SiteMap />
 
 
 
