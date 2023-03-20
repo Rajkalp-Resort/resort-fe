@@ -12,7 +12,7 @@ export default function SiteMap() {
                 </div>
                 <div className={styles.accessibility}>
                     <div className={styles.head1}>Nearest attraction from RJR</div>
-                    <img className={styles.access} src="./../Home/access.png" alt="" />
+                    <img className={styles.access} src="./../Home/access.svg" alt="" />
                 </div>
             </div>
 

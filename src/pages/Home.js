@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import styles from './Home.module.css';
 import Amneties from '../components/Amneties';
 import SiteMap from '../components/SiteMap';
+// import Event from '../components/Event';
 
 const responsive = {
     desktop: {
@@ -25,8 +26,18 @@ const responsive = {
 };
 
 function Home(props) {
+
+    // const [show, setShow] = useState();
+
+    // function toggleShow() {
+    //     setShow(!show);
+    // }
+
+    const [visible, setVisible] = React.useState(false);
+
+
     return (
-        <div>
+        <div className={styles.bodi}>
             <Navbar />
 
 
@@ -114,7 +125,6 @@ function Home(props) {
                 </Carousel>
             </div>
 
-
             <div className={styles.caroText}>
                 RAJKALP RESORTS & <br />
                 PRECIOUS SERVICES
@@ -127,15 +137,53 @@ function Home(props) {
                 Know More
             </button>
 
-
             <Amneties />
+
+            <div className={styles.pack}>
+                <div className={styles.amHead}>
+                    Package Info
+                </div>
+
+                <br />
+
+                <center>
+                    <img className={styles.joinImg} src='./../Home/joining.svg' alt='joining' />
+
+                    <img className={styles.joinImgMob} src='./../Home/joinmob.svg' alt='joining' />
+                </center>
+
+                <div className={styles.joining}>
+                    <img src='./../Home/night.png' className={styles.join1} alt='night' />
+                    <img src='./../Home/incentive.png' className={styles.join2} alt='night' />
+
+                    <img onClick={() => setVisible(!visible)} src='./../Home/events.png' className={styles.join3} alt='night' />
+
+                    {/* <button onClick={() => setVisible(!visible)}>{visible ? 'Hide' : 'Show'}</button> */}
+                    {visible && <div>
+                        <center>
+                            <img src='./../Home/allevent.png' alt='all events' className={styles.allevent} />
+                            <img src='./../Home/alleventsmob.png' alt='all eventsm' className={styles.alleventm} />
+                        </center>
+                    </div>}
+
+                </div>
+            </div>
+
+            <div className={styles.dwnld}>
+                <div className={styles.dwnld1}>
+                    To Know more about cash flow assets
+                </div>
+                <div className={styles.dwnld2}>
+                    <button className={styles.dwnldBtn}>
+                        DOWNLOAD NOW!
+                    </button>
+                </div>
+            </div>
+
             <SiteMap />
-            {/* <About /> */}
-
-
 
         </div>
     )
 }
 
-export default Home
+export default Home;

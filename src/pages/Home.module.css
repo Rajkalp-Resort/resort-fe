@@ -17,6 +17,15 @@
     height: auto;
 }
 
+.bodi {
+    background-color: #2a2b2b;
+}
+
+.pack {
+    background-color: #2a2b2b;
+    padding: 0 10% 3.5% 10%;
+}
+
 /* 
 .homeCaro2 {
     display: none;
@@ -79,6 +88,93 @@
     min-width: 43px;
     min-height: 43px;
     opacity: 0;
+    cursor: pointer;
+}
+
+.amHead {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF 1px solid;
+    padding: 4% 0 0% 0;
+    margin: 0 0 4% 0;
+}
+
+.joinImg {
+    display: block;
+    width: 70%;
+}
+
+.joinImgMob {
+    display: none;
+    width: 20%;
+}
+
+.joining {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.join1 {
+    width: 21%;
+    height: auto;
+    padding: 0 6% 0 6%;
+    cursor: pointer;
+}
+
+.join2 {
+    width: 21%;
+    height: auto;
+    padding: 0 6% 0 6%;
+    cursor: pointer;
+}
+
+.join3 {
+    width: 21%;
+    height: auto;
+    padding: 0 6% 0 6%;
+    cursor: pointer;
+}
+
+.allevent {
+    display: block;
+    width: 85%;
+}
+
+.alleventm {
+    display: none;
+    width: 80%;
+}
+
+.dwnld {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4% 13% 3% 13%;
+    background-color: #212121;
+}
+
+.dwnld1 {
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.dwnld2 {
+    width: 50%;
+}
+
+.dwnldBtn {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #36963D;
+    border: 2px solid #36963D;
+    background-color: #212121;
+    float: right;
     cursor: pointer;
 }
 
@@ -290,6 +386,15 @@
         color: #FFFFFF;
     }
 
+    .amHead {
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 55px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
 }
 
 
@@ -370,6 +475,91 @@
         left: 12%;
         border-bottom: #FFD6AB 2px solid;
     }
+
+    .amHead {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 4% 0 0% 0;
+        margin: 0 0 4% 0;
+    }
+
+    .joinImg {
+        display: none;
+        width: 70%;
+    }
+
+    .joinImgMob {
+        display: block;
+        width: 80%;
+    }
+
+    .join1 {
+        width: 80%;
+        height: auto;
+        padding: 0 6% 10% 10%;
+        cursor: pointer;
+    }
+
+    .join2 {
+        width: 80%;
+        height: auto;
+        padding: 0 6% 10% 10%;
+        cursor: pointer;
+    }
+
+    .join3 {
+        width: 80%;
+        height: auto;
+        padding: 0 6% 10% 10%;
+        cursor: pointer;
+    }
+
+    .allevent {
+        display: none;
+        width: 85%;
+    }
+
+    .alleventm {
+        display: block;
+        width: 80%;
+        padding: 0 10% 0 10%;
+    }
+
+    .dwnld {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4% 13% 3% 13%;
+        background-color: #212121;
+    }
+
+    .dwnld1 {
+        width: 100%;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .dwnld2 {
+        width: 100%;
+    }
+
+    .dwnldBtn {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #36963D;
+        border: 2px solid #36963D;
+        background-color: #212121;
+        float: right;
+        cursor: pointer;
+    }
+
+
+
 }
 
 @media screen and (max-width: 464px) {
@@ -418,5 +608,15 @@
         top: 10rem;
         left: 12%;
         border-bottom: #FFD6AB 2px solid;
+    }
+
+    .amHead {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 1px solid;
+        padding: 8% 0 0% 0;
+        margin: 0 0 6% 0;
     }
 }
