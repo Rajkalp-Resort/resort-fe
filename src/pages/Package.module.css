@@ -1,0 +1,146 @@
+*{
+    /* background: url('./../Home/img1.png'); */
+}
+.packOutlier{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: flex-start; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    /* margin-bottom: 5rem; */
+}
+
+.pack1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #2A2B2B;
+    color: #FFFFFF;
+}
+
+.p1Card{
+    width: 500px;
+    margin: 2rem 3rem;
+    padding: 2rem 5rem 2rem 1rem;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 0.5cm;
+    line-height: 0.7cm;
+}
+
+.p1Card:hover {
+    box-shadow: 0 8px 16px 0 #FFFFFF;
+  }
+
+.headP1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7cm;
+    font-weight: bolder;
+}
+
+.p1Li{
+    margin-bottom: 2.4rem;
+}
+
+.pack2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+    background-color: #2A2B2B;
+    color: #FFFFFF;
+}
+
+.p2Card{
+    width: 350px;
+    margin: 2rem 3rem;
+    padding: 2rem 2rem 2rem 1rem;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 0.5cm;
+    line-height: 0.7cm;
+}
+
+.p2Card:hover {
+    box-shadow: 0 8px 16px 0 #FFFFFF;
+  }
+
+
+.p2Li{
+    margin-bottom: 1.2rem;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.p2Li:last-child{
+    border-bottom: none;
+}
+
+.pack3{
+    background-color: #2A2B2B;
+    margin: 3.5rem 0;
+    color: #FFFFFF;
+
+}
+
+.p3List2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.p3Li{
+
+    margin-bottom: 1.3rem;
+}
+
+.smTxt{
+    width: 7rem;
+    margin: 1rem 1rem;
+    padding: 3.6rem 1rem;
+}
+
+.p3Img1{
+
+}
+.heading{
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* margin-top:  */
+    font-weight:bold;
+    font-size: 0.5cm;
+    margin-left: 4rem;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+}
+
+.content1{
+    border-right: 2px dashed black;
+    padding-right: 4rem;
+    margin-right: 0.3rem;
+}
+
+.content2{
+    border-left: 2px dashed black;
+    padding-left: 4rem;
+}
+
+.p4Li{
+    margin-bottom: 4rem;
+}
+
