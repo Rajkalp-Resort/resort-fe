@@ -4,7 +4,7 @@ import styles from './Package.module.css'
 
 function Package() {
     return (
-        <>
+        <div className={styles.outerPack}>
             < Navbar />
             <div className={styles.packOutlier}>
                 <div className={styles.pack1}>
@@ -235,7 +235,7 @@ function Package() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
 

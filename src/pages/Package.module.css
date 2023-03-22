@@ -1,5 +1,6 @@
-*{
-    /* background: url('./../Home/img1.png'); */
+.outerPack{
+    background: url('./blurBg.png');
+    z-index: -1;
 }
 .packOutlier{
     /* display: flex;
@@ -19,6 +20,7 @@
     padding-bottom: 2rem;
     background-color: #2A2B2B;
     color: #FFFFFF;
+    /* z-index: 1; */
 }
 
 .p1Card{
@@ -115,7 +117,8 @@
 }
 .heading{
     /* font-family: 'Times New Roman', Times, serif; */
-    /* margin-top:  */
+    margin-top: 3rem;
+    padding-top: 2rem;
     font-weight:bold;
     font-size: 0.5cm;
     margin-left: 4rem;
