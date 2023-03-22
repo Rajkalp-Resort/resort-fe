@@ -148,7 +148,7 @@ function Package() {
                 <div className={styles.para2}>
                     <ul className={styles.p3List}>
                         <li className={styles.p3Li}>
-                            Step 1 : 2 Packages introduce A and B
+                            Step 1 : 2 Packages introduce A and B <br />
                             you will get 1000/- Rupees
                         </li>
                         <li className={styles.p3Li}>
@@ -158,40 +158,46 @@ function Package() {
                     </ul>
                 </div>
                 <div className={styles.para3}>
-                    <ul className={styles.p3List2}>
-                        <li className={styles.p3Li}>
-                            <div className={styles.smTxt}>
-                                Like Step 1 :
-                            </div>
-                        </li>
-                        <li className={styles.p3Li}>
+                    <div className={styles.paraPart}>
+                        <ul className={styles.p3List2}>
                             <li className={styles.p3Li}>
-                                <img className={styles.p3Img1} src="./../A1.png" alt="" />
+                                <div className={styles.smTxt}>
+                                    Like Step 1 :
+                                </div>
                             </li>
-                        </li>
-                        <li className={styles.p3Li}>
-                            <div className={styles.smTxt}>
-                                2 new introduces
-                                you will
-                                get 1000/-
-                            </div>
-                        </li>
-                        <li className={styles.p3Li}>
-                            <div className={styles.smTxt}>
-                                Like Step 2 :
-                            </div>
-                        </li>
-                        <li className={styles.p3Li}>
-                            <img className={styles.p3Img2} src="./../B1.png" alt="" />
-                        </li>
-                        <li className={styles.p3Li}>
-                            <div className={styles.smTxt}>
-                                4 new introduces
-                                you will
-                                get 2000/-
-                            </div>
-                        </li>
-                    </ul>
+                            <li className={styles.p3Li}>
+                                <li className={styles.p3Li}>
+                                    <img className={styles.p3Img1} src="./../A1.png" alt="" />
+                                </li>
+                            </li>
+                            <li className={styles.p3Li}>
+                                <div className={styles.smTxt}>
+                                    2 new introduces
+                                    you will
+                                    get 1000/-
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className={styles.paraPart}>
+                        <ul className={styles.p3List2}>
+                            <li className={styles.p3Li}>
+                                <div className={styles.smTxt}>
+                                    Like Step 2 :
+                                </div>
+                            </li>
+                            <li className={styles.p3Li}>
+                                <img className={styles.p3Img2} src="./../B1.png" alt="" />
+                            </li>
+                            <li className={styles.p3Li}>
+                                <div className={styles.smTxt}>
+                                    4 new introduces
+                                    you will
+                                    get 2000/-
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className={styles.pack4}>
@@ -202,40 +208,80 @@ function Package() {
                     <div className={styles.content1}>
                         <ul className={styles.p4List}>
                             <li className={styles.p4Li}>
-                                Joining to 3 unit sale and Promotion
+                                <div className={styles.level}>
+                                    Level 1 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Joining to 3 unit sale and Promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Upto 5 property sale and 2 property
-                                professional required for next promotion
+                                <div className={styles.level}>
+                                    Level 2 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 5 property sale and 2 property
+                                    professional required for next promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Upto 9 unit sale & 4 P.P. required for next promotion
+                                <div className={styles.level}>
+                                    Level 3 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 9 unit sale & 4 P.P. required for next promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Upto 12 unit sale & 6 P.P. required for next promotion
+                                <div className={styles.level}>
+                                    Level 4 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 12 unit sale & 6 P.P. required for next promotion
+                                </div>
                             </li>
                         </ul>
                     </div>
                     <div className={styles.content2}>
                         <ul className={styles.p4List}>
                             <li className={styles.p4Li}>
-                                Upto 15 unit sale and 8 P.P. required for next promotion
+                                <div className={styles.level}>
+                                    Level 5 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 15 unit sale and 8 P.P. required for next promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Upto 20 unit sale & 10 P.P. required for next promotion
+                                <div className={styles.level}>
+                                    Level 6 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 20 unit sale & 10 P.P. required for next promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Upto 20 unit sale and 20 P.P. required for next promotion
+                                <div className={styles.level}>
+                                    Level 7 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Upto 20 unit sale and 20 P.P. required for next promotion
+                                </div>
                             </li>
                             <li className={styles.p4Li}>
-                                Core Club Ownership
+                                <div className={styles.level}>
+                                    Level 8 :
+                                </div>
+                                <div className={styles.levDesc}>
+                                    Core Club Ownership
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 
