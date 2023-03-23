@@ -99,7 +99,7 @@
 }
 
 .para1 {
-    margin: 1rem 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     padding: 1rem 10rem 1rem 5rem;
     line-height: 1.8rem;
 }
@@ -107,6 +107,14 @@
 .para2{
     margin: 1rem 1rem;
     padding: 1rem 50rem 1rem 5rem;
+}
+
+.step{
+    width: 7rem;
+}
+
+.stepDesc{
+    margin-left: 0;
 }
 
 .p3List{
@@ -134,7 +142,9 @@
 
 .p3Li {
     /* margin-right: 1rem; */
-    margin-bottom: 1.3rem;
+    display: flex;
+    flex-wrap: no wrap;
+    margin-bottom: 2.2em;
 }
 
 .smTxt {
@@ -199,7 +209,7 @@
     height: 1.3rem;
     width : 5rem;
     padding-right: 0px;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     /* box-sizing: border-box; */
     /* border: 2px solid white; */
 }

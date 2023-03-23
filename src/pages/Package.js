@@ -148,12 +148,23 @@ function Package() {
                 <div className={styles.para2}>
                     <ul className={styles.p3List}>
                         <li className={styles.p3Li}>
-                            Step 1 : 2 Packages introduce A and B <br />
-                            you will get 1000/- Rupees
+                            <div className={styles.step}>
+                                Step 1 :
+                            </div>
+                            <div className={styles.stepDesc}>
+                                2 Packages introduce A and B
+                                you will get 1000/- Rupees
+
+                            </div>
                         </li>
                         <li className={styles.p3Li}>
-                            Step 2 : Your A & B person each introduce R.R.P.S. Membership Packages
-                            you will get more Income
+                            <div className={styles.step}>
+                                Step 2 :
+                            </div>
+                            <dis className={styles.stepDesc}>
+                                Your A & B person each introduce R.R.P.S. Membership Packages
+                                you will get more Income
+                            </dis>
                         </li>
                     </ul>
                 </div>
