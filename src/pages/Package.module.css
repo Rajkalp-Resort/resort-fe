@@ -109,6 +109,12 @@
     padding: 1rem 50rem 1rem 5rem;
 }
 
+.p3List{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .step{
     width: 7rem;
 }
@@ -117,11 +123,6 @@
     margin-left: 0;
 }
 
-.p3List{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
 
 .para3{
     display: flex;
@@ -179,12 +180,14 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    font-size: 1rem;
 }
 
 .content1 {
     border-right: 2px dashed #FFFFFF;
     margin-left: 4rem;
     margin-right: 0.3rem;
+    margin-bottom: 9rem;
     padding-right: 15rem;
 }
 
@@ -192,6 +195,7 @@
     border-left: 2px dashed #FFFFFF;
     padding-left: 12rem;
     margin-right: 4rem;
+    margin-bottom: 9rem;
 }
 
 .p4List{
@@ -203,6 +207,7 @@
 .p4Li {
     display: flex;
     margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .level{
@@ -218,4 +223,33 @@
     padding-left: 0;
     /* padding-right: 10rem; */
     /* border: 2px solid white; */
+}
+
+
+
+@media screen and (max-width: 1412px){
+    .paraPart{
+        margin-left: 1.7rem;
+        margin-right: 0rem;
+        width: 50%;
+    }
+    .step{
+        /* height: 1rem; */
+        width: 9rem;
+    }
+    .stepDesc{
+        margin-left: 1rem;
+        /* margin-right: 4rem; */
+    }
+}
+
+@media screen and (max-width: 1043px){
+    .para2{
+        width: 100%;
+        padding: 1rem 2rem 1rem 5rem;
+    }
+    .stepDesc{
+        margin-right: 2rem;
+        padding-right: 2rem;
+    }
 }
