@@ -152,7 +152,7 @@ function Package() {
                                 Step 1 :
                             </div>
                             <div className={styles.stepDesc}>
-                                2 Packages introduce A and B
+                                2 Packages introduce A and B <br />
                                 you will get 1000/- Rupees
 
                             </div>
@@ -162,7 +162,7 @@ function Package() {
                                 Step 2 :
                             </div>
                             <dis className={styles.stepDesc}>
-                                Your A & B person each introduce R.R.P.S. Membership Packages
+                                Your A & B person each introduce R.R.P.S. Membership Packages <br />
                                 you will get more Income
                             </dis>
                         </li>
@@ -172,7 +172,7 @@ function Package() {
                     <div className={styles.paraPart}>
                         <ul className={styles.p3List2}>
                             <li className={styles.p3Li}>
-                                <div className={styles.smTxt}>
+                                <div className={styles.likeStep}>
                                     Like Step 1 :
                                 </div>
                             </li>
@@ -183,8 +183,8 @@ function Package() {
                             </li>
                             <li className={styles.p3Li}>
                                 <div className={styles.smTxt}>
-                                    2 new introduces
-                                    you will
+                                    2 new introduces <br />
+                                    you will <br />
                                     get 1000/-
                                 </div>
                             </li>
@@ -193,7 +193,7 @@ function Package() {
                     <div className={styles.paraPart}>
                         <ul className={styles.p3List2}>
                             <li className={styles.p3Li}>
-                                <div className={styles.smTxt}>
+                                <div className={styles.likeStep}>
                                     Like Step 2 :
                                 </div>
                             </li>
@@ -202,8 +202,8 @@ function Package() {
                             </li>
                             <li className={styles.p3Li}>
                                 <div className={styles.smTxt}>
-                                    4 new introduces
-                                    you will
+                                    4 new introduces <br />
+                                    you will <br />
                                     get 2000/-
                                 </div>
                             </li>

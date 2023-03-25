@@ -92,6 +92,7 @@
 }
 
 .pack3 {
+    /* width: 100%; */
     background-color: #2A2B2B;
     margin: 3.5rem 0;
     color: #FFFFFF;
@@ -99,14 +100,14 @@
 }
 
 .para1 {
-    margin: 1rem 1rem 2rem 1rem;
-    padding: 1rem 10rem 1rem 5rem;
+    margin: 1% 1% 2% 1%;
+    padding: 1% 2% 1% 5%;
     line-height: 1.8rem;
 }
 
 .para2{
-    margin: 1rem 1rem;
-    padding: 1rem 50rem 1rem 5rem;
+    margin: 1% 1%;
+    padding: 1% 2% 1% 5%;
 }
 
 .p3List{
@@ -116,7 +117,7 @@
 }
 
 .step{
-    width: 7rem;
+    width: 7%;
 }
 
 .stepDesc{
@@ -126,17 +127,22 @@
 
 .para3{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .paraPart{
-    margin-left: 1.7rem;
-    margin-right: 8rem;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 5%;
+    box-sizing: border-box;
 }
 
 .p3List2 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* justify-content: center; */
+    margin: 0;
+    padding: 0;
     align-items: center;
     list-style-type: none;
 }
@@ -145,17 +151,22 @@
     /* margin-right: 1rem; */
     display: flex;
     flex-wrap: no wrap;
-    margin-bottom: 2.2em;
+    margin-bottom: 2.2%;
+}
+
+.likeStep{
+    width: 10rem;
+    margin: 1% 1.5% 1% 0.1%;
+    padding: 0.6% 6.5%;
+    box-sizing: border-box;
 }
 
 .smTxt {
-    width: 7rem;
-    margin: 1rem 1.5rem 1rem 0.1rem;
-    padding: 3.6rem 0.5rem;
+    width: 10rem;
+    margin: 1% 1.5% 1% 0.1%;
+    padding: 0.6% 0.5%;
+    box-sizing: border-box;
 }
-
-
-.p3Img1 {}
 
 .heading {
     /* font-family: 'Times New Roman', Times, serif; */
@@ -180,22 +191,28 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    font-size: 1rem;
+    font-size: 0.5cm;
 }
 
 .content1 {
+    width: 50%;
     border-right: 2px dashed #FFFFFF;
-    margin-left: 4rem;
-    margin-right: 0.3rem;
-    margin-bottom: 9rem;
-    padding-right: 15rem;
+    margin-left: 4%;
+    margin-right: 0.5%;
+    margin-bottom: 9%;
+    padding-top: 0.4%;;
+    padding-right: 15%;
+    box-sizing: border-box;
 }
 
 .content2 {
+    width: 50%;
     border-left: 2px dashed #FFFFFF;
-    padding-left: 12rem;
-    margin-right: 4rem;
-    margin-bottom: 9rem;
+    padding-top: 0.4%;
+    padding-left: 15%;
+    margin-right: 4%;
+    margin-bottom: 9%;
+    box-sizing: border-box;
 }
 
 .p4List{
@@ -206,8 +223,7 @@
 
 .p4Li {
     display: flex;
-    margin-bottom: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10%;
 }
 
 .level{
@@ -243,6 +259,20 @@
     }
 }
 
+@media screen and (max-width: 1200px){
+    .para3{
+        flex-wrap: wrap;
+    }
+
+    .p3List2{
+        margin-bottom: 3rem;
+    }
+
+    .paraPart{
+        margin-left: 5rem;
+    }
+}
+
 @media screen and (max-width: 1043px){
     .para2{
         width: 100%;
@@ -252,4 +282,37 @@
         margin-right: 2rem;
         padding-right: 2rem;
     }
+}
+
+
+@media screen and (max-width: 400px){
+    .packOutlier{
+        width: 100%;
+    }
+    .pack1{
+        width: 100%;
+    }
+    
+    /* .contents {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        font-size: 0.4cm;
+    }
+
+    .content1 {
+        border-right: 2px dashed #FFFFFF;
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        padding-right: 5%;
+    }
+    
+    .content2 {
+        border-left: 2px dashed #FFFFFF;
+        padding-left: 10%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+     */
 }
