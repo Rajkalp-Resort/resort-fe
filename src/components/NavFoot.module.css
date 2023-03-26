@@ -167,7 +167,8 @@ a:active {
 
 .foot4a {
     display: flex;
-    padding: 0 30% 0 10%;
+    padding: 0 20% 0 20%;
+    align-items: center;
 }
 
 .foot4ai {
@@ -310,6 +311,12 @@ a:active {
 
     }
 
+    .foot4a {
+        display: flex;
+        padding: 0 10% 0 30%;
+        align-items: center;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -368,6 +375,12 @@ a:active {
         height: 4rem;
         width: auto;
         margin: -1rem 0 0 0;
+    }
+
+    .foot4a {
+        display: flex;
+        padding: 0 0% 0 40%;
+        align-items: center;
     }
 }
 
