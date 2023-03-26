@@ -1,3 +1,7 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 .outerPack {
     background: url('./blurBg.png');
     z-index: -1;
@@ -7,7 +11,7 @@
     /* display: flex;
     flex-direction: column; */
     /* justify-content: flex-start; */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     font-weight: 800;
     background: url('./blurBg.png');
     /* margin: -5rem, 0; */
@@ -45,7 +49,7 @@
 }
 
 .headP1 {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     font-size: 0.7cm;
     font-weight: bolder;
 }
@@ -94,7 +98,8 @@
 .pack3 {
     /* width: 100%; */
     background-color: #2A2B2B;
-    margin: 3.5rem 0;
+    padding: 0 10% 0 10%;
+    /* margin: 3.5rem 0; */
     color: #FFFFFF;
     font-size: 20px;
 }
@@ -105,46 +110,44 @@
     line-height: 1.8rem;
 }
 
-.para2{
+.para2 {
     margin: 1% 1%;
     padding: 1% 2% 1% 5%;
 }
 
-.p3List{
+.p3List {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.step{
+.step {
     width: 7%;
 }
 
-.stepDesc{
+.stepDesc {
     margin-left: 0;
+    width: 93%;
 }
 
 
-.para3{
+.para3 {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
-.paraPart{
-    width: 40%;
-    margin-left: 4%;
-    margin-right: 5%;
+.paraPart {
+    width: 44%;
+    margin: 0 3% 0 3%;
     box-sizing: border-box;
+    display: flex;
 }
 
-.p3List2 {
+.paraPart2 {
+    width: 44%;
+    padding: 0 0% 0 3%;
+    box-sizing: border-box;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    list-style-type: none;
 }
 
 .p3Li {
@@ -154,165 +157,445 @@
     margin-bottom: 2.2%;
 }
 
-.likeStep{
-    width: 10rem;
-    margin: 1% 1.5% 1% 0.1%;
+.likeStep {
+    width: 35%;
+    /* margin: 1% 1.5% 1% 0.1%; */
     padding: 0.6% 6.5%;
     box-sizing: border-box;
 }
 
 .smTxt {
-    width: 10rem;
-    margin: 1% 1.5% 1% 0.1%;
-    padding: 0.6% 0.5%;
+    width: 30%;
+    /* margin: 1% 1.5% 1% 0.1%; */
+    padding: 5%.6% 0.5%;
     box-sizing: border-box;
+}
+
+.p3img {
+    width: 35%;
 }
 
 .heading {
     /* font-family: 'Times New Roman', Times, serif; */
     margin-top: 3rem;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     padding-top: 2rem;
     font-weight: bold;
     font-size: 1cm;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 1rem;
     box-sizing: border-box;
 }
 
-.pack4{
+.pack4 {
     color: #FFFFFF;
     background-color: #2A2B2B;
     margin-bottom: 2rem;
+    padding: 0 10% 0 10%;
 }
 
 .contents {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 0.5cm;
+    flex-wrap: wrap;
 }
 
 .content1 {
-    width: 50%;
-    border-right: 2px dashed #FFFFFF;
-    margin-left: 4%;
-    margin-right: 0.5%;
-    margin-bottom: 9%;
-    padding-top: 0.4%;;
-    padding-right: 15%;
+    width: 49%;
+    border-right: 2px dashed #c7c7c7;
     box-sizing: border-box;
+    padding: 0% 7.5% 0% 7.5%;
+    margin: 0 0 4% 0;
 }
 
 .content2 {
-    width: 50%;
-    border-left: 2px dashed #FFFFFF;
-    padding-top: 0.4%;
-    padding-left: 15%;
-    margin-right: 4%;
-    margin-bottom: 9%;
+    width: 49%;
+    /* border-left: 2px dashed #FFFFFF; */
     box-sizing: border-box;
-}
+    padding: 0% 7.5% 0% 7.5%;
+    margin: 0 0 4% 0;
 
-.p4List{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .p4Li {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
 
-.level{
-    height: 1.3rem;
-    width : 5rem;
+.level {
+    /* height: 1.3rem; */
+    width: 15%;
     padding-right: 0px;
     margin-right: 0.5rem;
+    color: #b6b6b6;
+    line-height: 30px;
+    font-size: 20px;
     /* box-sizing: border-box; */
     /* border: 2px solid white; */
 }
 
-.levDesc{
+.levDesc {
     padding-left: 0;
+    width: 85%;
+    line-height: 30px;
+    font-size: 20px;
     /* padding-right: 10rem; */
     /* border: 2px solid white; */
 }
 
 
 
-@media screen and (max-width: 1412px){
-    .paraPart{
+@media screen and (max-width: 1412px) {
+    .paraPart {
         margin-left: 1.7rem;
         margin-right: 0rem;
         width: 50%;
     }
-    .step{
-        /* height: 1rem; */
+
+    .step {
         width: 9rem;
     }
-    .stepDesc{
+
+    .stepDesc {
         margin-left: 1rem;
         /* margin-right: 4rem; */
     }
 }
 
-@media screen and (max-width: 1200px){
-    .para3{
+@media screen and (max-width: 1200px) {
+    .para3 {
         flex-wrap: wrap;
     }
 
-    .p3List2{
+    .p3List2 {
         margin-bottom: 3rem;
     }
 
-    .paraPart{
+    .paraPart {
         margin-left: 5rem;
     }
 }
 
-@media screen and (max-width: 1043px){
-    .para2{
+@media screen and (max-width: 1043px) {
+    .para2 {
         width: 100%;
-        padding: 1rem 2rem 1rem 5rem;
+        padding: 1rem 2rem 1rem 5%;
     }
-    .stepDesc{
+
+    .stepDesc {
         margin-right: 2rem;
         padding-right: 2rem;
+    }
+
+    .likeStep {
+        width: 35%;
+        /* margin: 1% 1.5% 1% 0.1%; */
+        padding: 0.6% 6.5%;
+        box-sizing: border-box;
+    }
+
+    .smTxt {
+        width: 30%;
+        /* margin: 1% 1.5% 1% 0.1%; */
+        padding: 5%.6% 0.5%;
+        box-sizing: border-box;
+    }
+
+    .p3img {
+        width: 35%;
+    }
+
+    .paraPart {
+        width: 94%;
+        margin: 0 3% 8% 3%;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .paraPart2 {
+        width: 94%;
+        padding: 0 0% 4% 3%;
+        box-sizing: border-box;
+        display: flex;
     }
 }
 
 
-@media screen and (max-width: 400px){
-    .packOutlier{
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .pack4 {
+        color: #FFFFFF;
+        background-color: #2A2B2B;
+        margin-bottom: 2rem;
+        padding: 0 5% 0 5%;
     }
-    .pack1{
-        width: 100%;
-    }
-    
-    /* .contents {
+
+    .contents {
         display: flex;
         justify-content: center;
-        margin-top: 2rem;
-        font-size: 0.4cm;
+        margin-top: 3rem;
+        font-size: 0.5cm;
+        flex-wrap: wrap;
     }
 
     .content1 {
-        border-right: 2px dashed #FFFFFF;
-        margin-left: 2%;
-        margin-right: 5%;
-        margin-bottom: 10%;
-        padding-right: 5%;
+        width: 49%;
+        border-right: 2px dashed #c7c7c7;
+        padding: 0% 2% 0% 1%;
+        margin: 0 0 4% 0;
+        box-sizing: border-box;
     }
-    
+
     .content2 {
-        border-left: 2px dashed #FFFFFF;
-        padding-left: 10%;
-        margin-right: 5%;
-        margin-bottom: 5%;
+        width: 50%;
+        /* border-left: 2px dashed #FFFFFF; */
+        padding: 0% 0% 0% 4%;
+        margin: 0 0 4% 0;
+        box-sizing: border-box;
     }
-     */
+
+    .p4Li {
+        display: flex;
+        margin-bottom: 6%;
+    }
+
+    .level {
+        /* height: 1.3rem; */
+        width: 30%;
+        padding-right: 0px;
+        margin-right: 0.5rem;
+        color: #b6b6b6;
+        line-height: 25px;
+        font-size: 18px;
+        /* box-sizing: border-box; */
+        /* border: 2px solid white; */
+    }
+
+    .levDesc {
+        padding-left: 0;
+        width: 80%;
+        line-height: 25px;
+        font-size: 18px;
+        /* padding-right: 10rem; */
+        /* border: 2px solid white; */
+    }
+
+    .heading {
+        /* font-family: 'Times New Roman', Times, serif; */
+        margin-top: 3rem;
+        /* margin-right: 4rem; */
+        padding-top: 2rem;
+        font-weight: bold;
+        font-size: 32px;
+        /* margin-left: 4rem; */
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 1rem;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 464px) {
+    .packOutlier {
+        width: 100%;
+    }
+
+    .pack1 {
+        width: 100%;
+        margin-bottom: 0%;
+    }
+
+    .pack2 {
+        margin: -4% 0 0 0;
+    }
+
+    .pack4 {
+        color: #FFFFFF;
+        background-color: #2A2B2B;
+        margin-bottom: 2rem;
+        padding: 0 5% 0 5%;
+    }
+
+    .contents {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        font-size: 0.5cm;
+        flex-wrap: wrap;
+    }
+
+    .content1 {
+        width: 99%;
+        border-right: none;
+        padding: 0% 2% 0% 3%;
+        margin: 0 0 4% 0;
+        box-sizing: border-box;
+    }
+
+    .content2 {
+        width: 99%;
+        /* border-left: 2px dashed #FFFFFF; */
+        padding: 0% 2% 0% 3%;
+        margin: 0 0 4% 0;
+        box-sizing: border-box;
+    }
+
+    .p4Li {
+        display: flex;
+        margin-bottom: 6%;
+    }
+
+    .level {
+        /* height: 1.3rem; */
+        width: 25%;
+        padding-right: 0px;
+        margin-right: 0.5rem;
+        color: #b6b6b6;
+        line-height: 25px;
+        font-size: 18px;
+        /* box-sizing: border-box; */
+        /* border: 2px solid white; */
+    }
+
+    .levDesc {
+        padding-left: 0;
+        width: 75%;
+        line-height: 25px;
+        font-size: 18px;
+        /* padding-right: 10rem; */
+        /* border: 2px solid white; */
+    }
+
+    .heading {
+        /* font-family: 'Times New Roman', Times, serif; */
+        margin-top: 2px;
+        /* margin-right: 4rem; */
+        padding-top: 2rem;
+        font-weight: bold;
+        font-size: 28px;
+        /* margin-left: 4rem; */
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 1rem;
+        box-sizing: border-box;
+    }
+
+    .packOutlier {
+        padding: 3rem 0 0 0;
+        /* margin-bottom: 5rem; */
+    }
+
+    .p1Card {
+        width: 500px;
+        margin: 3rem 2rem;
+        padding: 0rem 2rem 0rem 1rem;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .headP1 {
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: bolder;
+        font-weight: 600;
+    }
+
+    .headP2 {
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: bolder;
+        font-weight: 600;
+    }
+
+    .p2Card {
+        width: 350px;
+        margin: 2rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .pack3 {
+        /* width: 100%; */
+        background-color: #2A2B2B;
+        padding: 0 5% 0 5%;
+        /* margin: 3.5rem 0; */
+        color: #FFFFFF;
+    }
+
+    .para1 {
+        padding: 5% 1% 5% 2%;
+        line-height: 1.8rem;
+    }
+
+    .step {
+        width: 22%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .stepDesc {
+        margin-left: 0;
+        width: 78%;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .para2 {
+        margin: 1% 1%;
+        padding: 1% 2% 1% 2%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .likeStep {
+        width: 100%;
+        /* margin: 1% 1.5% 1% 0.1%; */
+        padding: 6% 0% 0.6% 35%;
+        box-sizing: border-box;
+
+    }
+
+    .smTxt {
+        width: 100%;
+        /* margin: 1% 1.5% 1% 0.1%; */
+        padding: 5% 0.6% 0.5% 5%;
+        box-sizing: border-box;
+    }
+
+    .p3img {
+        width: 100%;
+        padding: 5% 0 2% 20%;
+        box-sizing: border-box;
+    }
+
+    .paraPart {
+        width: 94%;
+        margin: 0 3% 8% 3%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .paraPart2 {
+        width: 94%;
+        padding: 0 0% 4% 3%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }

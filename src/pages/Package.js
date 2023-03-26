@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import styles from './Package.module.css'
 
@@ -135,8 +136,9 @@ function Package() {
                         </li>
                     </ul>
                 </div>
-
             </div>
+
+
             <div className={styles.pack3}>
                 <div className={styles.heading}>
                     Membership Package and Incentive Plan
@@ -146,151 +148,156 @@ function Package() {
                     5 Days Living in Rajkalp Resorts - Tadoba Tourist Place and 12 days weekend in lifetime
                 </div>
                 <div className={styles.para2}>
-                    <ul className={styles.p3List}>
-                        <li className={styles.p3Li}>
-                            <div className={styles.step}>
-                                Step 1 :
-                            </div>
-                            <div className={styles.stepDesc}>
-                                2 Packages introduce A and B <br />
-                                you will get 1000/- Rupees
 
-                            </div>
-                        </li>
-                        <li className={styles.p3Li}>
-                            <div className={styles.step}>
-                                Step 2 :
-                            </div>
-                            <dis className={styles.stepDesc}>
-                                Your A & B person each introduce R.R.P.S. Membership Packages <br />
-                                you will get more Income
-                            </dis>
-                        </li>
-                    </ul>
+                    <div className={styles.p3Li}>
+                        <div className={styles.step}>
+                            Step 1:
+                        </div>
+                        <div className={styles.stepDesc}>
+                            2 Packages introduce A and B <br />
+                            you will get 1000/- Rupees
+                        </div>
+                    </div>
+
+                    <div className={styles.p3Li}>
+                        <div className={styles.step}>
+                            Step 2:
+                        </div>
+                        <dis className={styles.stepDesc}>
+                            Your A & B person each introduce R.R.P.S. Membership Packages <br />
+                            you will get more Income
+                        </dis>
+                    </div>
+
                 </div>
                 <div className={styles.para3}>
                     <div className={styles.paraPart}>
-                        <ul className={styles.p3List2}>
-                            <li className={styles.p3Li}>
-                                <div className={styles.likeStep}>
-                                    Like Step 1 :
-                                </div>
-                            </li>
-                            <li className={styles.p3Li}>
-                                <li className={styles.p3Li}>
-                                    <img className={styles.p3Img1} src="./../A1.png" alt="" />
-                                </li>
-                            </li>
-                            <li className={styles.p3Li}>
-                                <div className={styles.smTxt}>
-                                    2 new introduces <br />
-                                    you will <br />
-                                    get 1000/-
-                                </div>
-                            </li>
-                        </ul>
+
+                        <div className={styles.likeStep}>
+                            Like Step 1 :
+                        </div>
+
+                        <div className={styles.p3img}>
+                            <img className={styles.p3Img1} src="./../A1.png" alt="A1" />
+                        </div>
+
+                        <div className={styles.smTxt}>
+                            2 new introduces
+                            you will
+                            get 1000/-
+                        </div>
+
                     </div>
-                    <div className={styles.paraPart}>
-                        <ul className={styles.p3List2}>
-                            <li className={styles.p3Li}>
-                                <div className={styles.likeStep}>
-                                    Like Step 2 :
-                                </div>
-                            </li>
-                            <li className={styles.p3Li}>
-                                <img className={styles.p3Img2} src="./../B1.png" alt="" />
-                            </li>
-                            <li className={styles.p3Li}>
-                                <div className={styles.smTxt}>
-                                    4 new introduces <br />
-                                    you will <br />
-                                    get 2000/-
-                                </div>
-                            </li>
-                        </ul>
+
+                    <div className={styles.paraPart2}>
+                        <div className={styles.likeStep}>
+                            Like Step 2 :
+                        </div>
+
+                        <div className={styles.p3img}>
+                            <img className={styles.p3Img2} src="./../B1.png" alt="B1" />
+                        </div>
+
+                        <div className={styles.smTxt}>
+                            4 new introduces
+                            you will
+                            get 2000/-
+                        </div>
+
                     </div>
+
                 </div>
             </div>
+
+
             <div className={styles.pack4}>
                 <div className={styles.heading}>
                     Incentive Plan
                 </div>
                 <div className={styles.contents}>
                     <div className={styles.content1}>
-                        <ul className={styles.p4List}>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 1 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Joining to 3 unit sale and Promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 2 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 5 property sale and 2 property
-                                    professional required for next promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 3 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 9 unit sale & 4 P.P. required for next promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 4 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 12 unit sale & 6 P.P. required for next promotion
-                                </div>
-                            </li>
-                        </ul>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 1:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Joining to 3 unit sale and Promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 2:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 5 property sale and 2 property
+                                professional required for next promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 3:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 9 unit sale & 4 P.P. required for next promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 4:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 12 unit sale & 6 P.P. required for next promotion
+                            </div>
+                        </div>
+
                     </div>
                     <div className={styles.content2}>
-                        <ul className={styles.p4List}>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 5 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 15 unit sale and 8 P.P. required for next promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 6 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 20 unit sale & 10 P.P. required for next promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 7 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Upto 20 unit sale and 20 P.P. required for next promotion
-                                </div>
-                            </li>
-                            <li className={styles.p4Li}>
-                                <div className={styles.level}>
-                                    Level 8 :
-                                </div>
-                                <div className={styles.levDesc}>
-                                    Core Club Ownership
-                                </div>
-                            </li>
-                        </ul>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 5:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 15 unit sale and 8 P.P. required for next promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 6:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 20 unit sale & 10 P.P. required for next promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 7:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Upto 20 unit sale and 20 P.P. required for next promotion
+                            </div>
+                        </div>
+
+                        <div className={styles.p4Li}>
+                            <div className={styles.level}>
+                                Level 8:
+                            </div>
+                            <div className={styles.levDesc}>
+                                Core Club Ownership
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+
+            <Footer />
 
         </div >
     )

@@ -93,10 +93,122 @@ a:active {
     margin: -1.5rem 0 0 0;
 }
 
+.footMain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 10% 4% 10%;
+    background-color: #000;
+}
+
+.foot1 {
+    width: 33%;
+    border-right: 1px white solid;
+}
+
+.foot2 {
+    width: 31%;
+    padding: 0 1.5% 0 1.5%;
+    border-right: 1px white solid;
+}
+
+.foot3 {
+    width: 30%;
+}
+
+.foot2a {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
 
 
+.foot2ai {
+    width: 10%;
+}
 
+.loc {
+    width: 85%;
+}
 
+.foot2ad {
+    width: 90%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.foot3a {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0 0 0 5%;
+}
+
+.foot3ai {
+    width: 15%;
+}
+
+.mail {
+    width: 35%;
+}
+
+.net {
+    width: 35%;
+}
+
+.foot3ad {
+    width: 80%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.foot4a {
+    display: flex;
+    padding: 0 30% 0 10%;
+}
+
+.foot4ai {
+    width: 33%;
+}
+
+.fig {
+    width: 50%;
+}
+
+.ffb {
+    width: 50%;
+}
+
+.fwa {
+    width: 50%;
+}
+
+.footh1 {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin: 0 0 6% 0;
+
+}
+
+.footh4 {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    margin: 0 0 6% 30%;
+
+}
+
+.flogo {
+    width: 80%;
+}
 
 
 
@@ -261,9 +373,33 @@ a:active {
 
 
 
+@media screen and (max-width: 650px) {
+    .foot1 {
+        width: 100%;
+        border-right: none;
+        padding: 3% 0 10% 0;
+    }
 
+    .foot2 {
+        width: 95%;
+        padding: 0 1.5% 0 1.5%;
+        border-right: none;
+        padding: 3% 0 10% 0;
+    }
 
+    .foot3 {
+        width: 90%;
+    }
 
+    .foot4a {
+        display: flex;
+        padding: 0 30% 0 10%;
+    }
+
+    .foot4ai {
+        width: 33%;
+    }
+}
 
 
 
@@ -317,4 +453,20 @@ a:active {
         width: auto;
         margin: -0.5rem 0 0 0;
     }
+
+    .foot4a {
+        display: flex;
+        padding: 0px 0% 0 18%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .ilogo {
+        height: 2.5rem;
+        padding: 0px 0 0 0px;
+        margin: 0 2rem 0 -10rem;
+        z-index: 99;
+    }
+
 }

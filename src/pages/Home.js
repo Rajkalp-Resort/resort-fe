@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import styles from './Home.module.css';
 import Amneties from '../components/Amneties';
 import SiteMap from '../components/SiteMap';
+import Footer from '../components/Footer';
 // import Event from '../components/Event';
 
 const responsive = {
@@ -181,6 +182,8 @@ function Home(props) {
             </div>
 
             <SiteMap />
+
+            <Footer />
 
         </div>
     )
